@@ -1,7 +1,7 @@
 ---
 category: content
 layout: course_page
-published: true
+
 title: What is the title
 ---
 
