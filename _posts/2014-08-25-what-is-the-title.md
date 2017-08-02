@@ -1,5 +1,5 @@
 ---
-category: content
+
 layout: course_page
 
 title: What is the title
