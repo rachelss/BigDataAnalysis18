@@ -5,4 +5,4 @@ categories:
  - content
 ---
 
-General Information
+General Information about weekly materials goes here
