@@ -12,12 +12,12 @@
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
-		
+
 		<div class="collapse navbar-collapse" id="p2pu-menu">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="{{ site.baseurl }}/">Getting started</a></li>
+				<li><a href="{{ site.baseurl }}/">Information</a></li>
 				<li class="dropdown active">
-          <a href="#" >Modules </a>
+          <a href="#" >Weekly materials </a>
           <span class="fa fa-caret-down dropdown-toggle visible-xs-block visible-sm-block" data-toggle="dropdown"></span>
 					<ul class="dropdown-menu" role="menu">
 						{% for post in site.categories.content reversed %}
@@ -30,9 +30,7 @@
 						{% endfor %}
 					</ul>
 				</li>
-				<li>
-					<a href="http://thepeople.p2pu.org/category/learning/">Discussion</a>
-				</li>
+
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->
