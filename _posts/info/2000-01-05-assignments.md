@@ -9,17 +9,19 @@ categories:
 
 For each assignment you will earn points. The more points you have earned, the more you have learned. Your grade will be based on the total number of points you accumulate during the semester.
 
-A 940-1000
-A- 900-939
-B+ 870-899
-B 830-869
-B- 800-829
-C+ 770-799
-C 730-769
-C- 700-729
-D+ 670-699
-D 600-669
-F <600  
+Grade | points
+--- | ---
+A | 940-1000
+A- | 900-939
+B+ | 870-899
+B | 830-869
+B- | 800-829
+C+ | 770-799
+C | 730-769
+C- | 700-729
+D+ | 670-699
+D | 600-669
+F | <600  
 
 Ways to earn points:
 
