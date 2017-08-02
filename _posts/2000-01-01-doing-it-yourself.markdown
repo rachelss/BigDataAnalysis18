@@ -1,8 +1,7 @@
 ---
 title: Doing It Yourself
 layout: course_page
-categories:
- - content
+
 ---
 
 **An edupunk is someone who doesn't want to play by the old college rules.** Maybe you have interests that don't fit the academic mold. Maybe you're in a remote location. Maybe you have a family, a job, or other responsibilities and you can't take on life as a full-time student. Maybe you love new technology and new ways of learning. Or maybe you're just a rebel!"
