@@ -1,5 +1,4 @@
 encoding: utf-8
-markdown: redcarpet
 baseurl: /BIO181G
 url: SchwartzLabURI.github.io/BIO181G/
 permalink: /:title/
