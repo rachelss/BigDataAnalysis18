@@ -17,35 +17,9 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="{{ site.baseurl }}/">Home</a></li>
 
-				<li class="dropdown active">
-					<a href="#" >Information</a>
-					<span class="fa fa-caret-down dropdown-toggle visible-xs-block visible-sm-block" data-toggle="dropdown"></span>
-					<ul class="dropdown-menu" role="menu">
-						{% for post in site.categories.info %}
-							<li>
-								<a {% if post.url == page.url %}class="active"{% endif %}
-									 href="{{ site.baseurl }}{{ post.url }}">
-									{{ post.title }}
-								</a>
-							</li>
-						{% endfor %}
-					</ul>
-				</li>
+				<li><a href="{{ site.baseurl }}/info">General Information</a></li>
 
-				<li class="dropdown active">
-          <a href="#" >Weekly materials </a>
-          <span class="fa fa-caret-down dropdown-toggle visible-xs-block visible-sm-block" data-toggle="dropdown"></span>
-					<ul class="dropdown-menu" role="menu">
-						{% for post in site.categories.content reversed %}
-							<li>
-								<a {% if post.url == page.url %}class="active"{% endif %}
-								   href="{{ site.baseurl }}{{ post.url }}">
-									{{ post.title }}
-								</a>
-							</li>
-						{% endfor %}
-					</ul>
-				</li>
+				<li><a href="{{ site.baseurl }}/materials">Weekly Materials</a></li>
 
 			</ul>
 		</div>
