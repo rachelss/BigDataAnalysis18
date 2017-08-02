@@ -9,7 +9,7 @@ categories:
 
 For each assignment you will earn points. The more points you have earned, the more you have learned. Your grade will be based on the total number of points you accumulate during the semester.
 
-A 940-1000  
+A 940-1000
 A- 900-939
 B+ 870-899
 B 830-869
@@ -29,6 +29,19 @@ Ways to earn points:
 
 *Expectations for class participation*: To earn full participation points during class students are expected to engage in discussion in small groups and/or turn in a short reponse to assigned readings and/or respond to questions asked by the professor.
 
-*Expectations for short papers*: Papers should be approximately 300 words. Papers will be written in response to a prompt provided by the professor on the topic for the week. 12 prompts will be provided (1 per week except the last week). Each paper is worth 100 points. Students may write as many or as few papers as necessary to achieve a desired number of points up to 500. Thus, it is possible to achieve the maximum number of points even if a student struggles with writing assignments initially. A prompt will be provided each Friday and the paper will be due by 5pm the following Friday (except for the last week of class). Writing should be grammatically correct and arguments should be well structured. Students are expected to note sources of information, which may include the course texts, additional readings, or other material from a reputable source (check with the professor if you aren't sure). Examples for citations will be provided. A detailed rubric will be provided to guide students' writing and clarify grading. See below for assistance with writing.
+*Expectations for short papers*:
 
-*Expectations for final paper*: Papers should be approximately 2000 words. Expectations for the paper are as above; however, the final paper should synthesize materials covered in the course rather than addressing one topic. The final paper is due at 5pm on the last day of classes for the term.
+* Each paper should be approximately 300 words.
+* Each paper will be written in response to a prompt provided on Friday by the professor on the topic for the week. The paper will be due by 5pm the following Friday.
+* 12 prompts will be provided (1 per week except the last week).
+* Each paper is worth 100 points.
+* Students may write as many or as few papers as necessary to achieve a desired number of points up to 500.
+* Writing should be grammatically correct and arguments should be well structured.
+* Students should note sources of information, which may include the course texts, additional readings, or other material from a reputable source (check with the professor if you aren't sure). Examples for citations will be provided.
+* Students should use the provided rubric to guide writing and clarify grading.
+
+*Expectations for final paper*
+
+* Papers should be approximately 2000 words.
+* Expectations for the paper are as above; however, the final paper should synthesize materials covered in the course rather than addressing one topic.
+* The final paper is due at 5pm on the last day of classes for the term.
