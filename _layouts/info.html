@@ -4,21 +4,18 @@ layout: base
 
 <div class="container">
 <div class="row">
-  <div class="col-md-12 col-lg-12">
-    <h1>{{ site.data.course.title}}</h1>
-  </div>
-</div>
-<div class="row">
-  <div class="sidebar col-md-4">
+  <div class="sidebar col-lg-4">
+
     <ul class="nav nav-list">
     {% for subpage in site.categories.info %}
-      <li> <a href="{{site.baseurl}}{{ subpage.url }}">{{subpage.title}}</a></li>
+      <li class="{% if subpage.title == page.title %}active{% endif %}" > <a href="{{site.baseurl}}{{ subpage.url }}">{{subpage.title}}</a></li>
     {% endfor %}
     </ul>
   </div>
 
-  <div class="col-md-8">
+  <div class="content col-lg-8">
     {{ content }}
   </div>
+
 </div>
 </div>
