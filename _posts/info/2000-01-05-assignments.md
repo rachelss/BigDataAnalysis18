@@ -21,7 +21,7 @@ C | 730-769
 C- | 700-729
 D+ | 670-699
 D | 600-669
-F | <600  
+F | <600
 
 Ways to earn points:
 
@@ -34,7 +34,8 @@ Ways to earn points:
 *Expectations for short papers*:
 
 * Each paper should be approximately 300 words.
-* Each paper will be written in response to a prompt provided on Friday by the professor on the topic for the week. The paper will be due by 5pm the following Friday.
+* Each paper will be written in response to a prompt provided on Friday on Sakai on the topic for the week. 
+* The paper will be due by 5pm the following Friday.
 * 12 prompts will be provided (1 per week except the last week).
 * Each paper is worth 100 points.
 * Students may write as many or as few papers as necessary to achieve a desired number of points up to 500.
