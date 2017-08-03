@@ -1,50 +1,50 @@
-A Jekyll template for running an open online course (no, not a MOOC)
+## Website for BIO 181G at URI
 
-See http://p2pu.github.io/jekyll-course-template for an example of what it looks like
+## To use this as a template
 
----
+1.  Read about [github pages](http://pages.github.com/).
 
-## What do I get when I use this?
+2.  Log in to GitHub.
+    (If you do not have an account, you can quickly create one for free.)
+    You must be logged in for the remaining steps to work.
 
-- Simple course site
-- Google Analytics tracking for your course
-- Comments using [disqus](http://disqus.com/)
+3.  Go to [GitHub's importer](http://import.github.com/new). *Do not fork this repository if you are creating your own course.*
 
-## How do I use it?
+4.  Paste the url of this repo as the old repository to clone:
+    <https://github.com/SchwartzLabURI/Bio181G>.
 
-- Read about [github pages](http://pages.github.com/).
-- Download the files [here](https://github.com/p2pu/jekyll-course-template/archive/gh-pages.zip).
-- Create a new git repository on your local machine: `git init .`
-- Create and use the branch gh-pages as the default: `git checkout -b gh-pages`.
-- Create a new repository on [github](https://github.com).
-- Add the new repository as the origin for your repository `git remote add origin git@github.com:username/repositoryname.git`.
-- Copy the files into your repository.
-- Update _data/course.yml with the relevant info.
-- Update index.md with the basic info about your course.
-- Create course contents in _posts/. Have a look at the examples [here](https://github.com/p2pu/course-2-jekyll/tree/gh-pages/_posts).
- - File names need to start with a date and that this date will determine the order. 
- - Add the category 'contents' to the post, otherwise it won't show up on your course about page.
-- Update _config.yml.
- - Update the URLs appropriately - `baseurl` will be the name of your repository & url should be the username.github.io/repositoryname.
- - Create a new Google Analytics account and put the site ID in _config.yml.
- - Create a new disqus account if you want to enable comments and put the disqus_shortname in _config.yml.
-- Push to the gh-pages branch of your github reposity: `git push origin gh-pages`.
+5.  Select the owner for your new repository.
+    (This will probably be you, but may instead be an organization you belong to.)
 
-## Do you wish to contribute?
+6.  Choose a name for your workshop website repository.
 
-If you would like to contribute, there are lots that needs to be done. Fork the repository and get hacking!
+7.  Make sure the repository is public.
 
-- Add [LRMI metadata](http://www.lrmi.net) to the template.
-- Pull in the external CSS and JS files we are currently using.
-- Figure out how we can support signups - something like Google forms where we can show the results in the document as profile pictures.
-- Add support for badges
-- Figure out how to do translation
-- Add metadata for social sharing
+8.  Click "Begin Import".
+    When the process is done,
+    you will receive a message like
+    "Importing complete! Your new repository myname/mycourse is ready."
+    and you can go to the new repository by clicking on the name.
 
-## Have comment and suggestions?
+9.  Go into your newly-created repository,
+    which will be at `https://github.com/myname/mycourse`.
+    For example,
+    if your username is `abc`,
+    the repository's URL will be `https://github.com/abc/mycourse`.
 
-Come and tell us all about it at [thepeople.p2pu.org](http://thepeople.p2pu.org).
+10. Clone the repository to your local computer.
+    
+11.  Edit `_config.yml` to customize site-wide variables.
+  - Update the URLs appropriately - `baseurl` will be the name of your repository & url should be the username.github.io/repositoryname.
+    
+12. Update `index.md` with the basic info about your course.
+
+13. Create course contents in _posts/weeks and course info in _posts/info. 
+  - File names need to start with a date and this date will determine the order. 
+  - Posts must have a category ('contents' for weekly content and 'info' for general information).
+
+14. Push to the gh-pages branch of your github reposity: `git push origin gh-pages`.
 
 ## License
 
-The template and the code is all released under the MIT license unless otherwise noted. By default the template is set up to publish the content you add under CC-BY-SA.
+This site was modified from http://p2pu.github.io/jekyll-course-template. The code is all released under the MIT license unless otherwise noted. By default the template is set up to publish the content you add under CC-BY-SA.
