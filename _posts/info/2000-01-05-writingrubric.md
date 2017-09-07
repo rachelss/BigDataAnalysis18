@@ -9,10 +9,18 @@ categories:
 
 Topic | Qualities
  --- | --- 
-Argument | Evidence, Examples and Sources, Specifics but not just anecdotes, thesis statement / clear thesis,
-awareness of different perspectives and viewpoints  
-Clarity  | avoids jargon; provides explanations; easy to follow
-Language  | good grammar and spelling; no run-on sentences
-Structure | each paragraph is organized; paragraphs are organized across the paper; 
-  has an introduction and conclusion; transitions between paragraphs and sentences;
-stays on topic; appropriate for audience
+Argument | Evidence, Examples and Sources
+ | Specifics but not just anecdotes
+ | Thesis statement / clear thesis
+ | Awareness of different perspectives and viewpoints  
+Clarity  | Avoids jargon
+ | Provides explanations
+ | Easy to follow
+Language | Good grammar and spelling
+ | No run-on sentences
+Structure | Each paragraph is organized
+ | Paragraphs are organized across the paper
+ | Has an introduction and conclusion
+ | Transitions between paragraphs and sentences
+ | Stays on topic
+ | Appropriate for audience
