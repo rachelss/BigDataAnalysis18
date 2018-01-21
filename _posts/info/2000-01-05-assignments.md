@@ -7,44 +7,32 @@ categories:
 
 **Assignments and Grading Policy**
 
-For each assignment you will earn points. The more points you have earned, the more you have learned. Your grade will be based on the total number of points you accumulate during the semester.
+There will be five assignments during the course of the semester.  Each assignment will focus on the skill learned in class during the week and build on skills and concepts learned in previous weeks. These assignments will be initiated in class and are due at the end of the following week. 
 
-Grade | points
---- | ---
-A | 940-1000
-A- | 900-939
-B+ | 870-899
-B | 830-869
-B- | 800-829
-C+ | 770-799
-C | 730-769
-C- | 700-729
-D+ | 670-699
-D | 600-669
-F | <600
+For each assignment you will earn points. The more points you have earned, the more you have learned. Your grade will be based on the total number of points you accumulate during the semester. Assignments will be worth a total of 500 points. Students in BIO539 will also do a cummulative project involving two of the following: (1) a detailed written proposal on research involving big data, (2) analysis of research data, (3) a ~1000 word paper on your research using data, and/or (4) a poster of your research with data. The project will be worth 500 points.
 
-Ways to earn points:
+Grading for BIO539  
+A 900-1000  
+A- 880-899  
+B+ 860-879  
+B 800-859  
+B- 780-799  
+C+ 760-779  
+C 700-759  
+C- 680-699  
+D+ 660-679  
+D 600-659   
+F <600  
 
-- Class participation: 10 points per class (250 total; one absence permitted)
-- Short papers: 100 points per paper (1 paper per week, 12 total, but you may only earn up to 500 points)
-- Final paper: 250 points
-
-*Expectations for class participation*: To earn full participation points during class students are expected to engage in discussion in small groups and/or turn in a short reponse to assigned readings and/or respond to questions asked by the professor.
-
-*Expectations for short papers*:
-
-* Each paper should be approximately 300 words.
-* Each paper will be written in response to a prompt provided on Friday on Sakai on the topic for the week. 
-* The paper will be due by 5pm the following Friday.
-* 12 prompts will be provided (1 per week except the last week).
-* Each paper is worth 100 points.
-* Students may write as many or as few papers as necessary to achieve a desired number of points up to 500.
-* Writing should be grammatically correct and arguments should be well structured.
-* Students should note sources of information, which may include the course texts, additional readings, or other material from a reputable source (check with the professor if you aren't sure). Examples for citations will be provided.
-* Students should use the provided rubric to guide writing and clarify grading.
-
-*Expectations for final paper*
-
-* Papers should be approximately 2000 words.
-* Expectations for the paper are as above; however, the final paper should synthesize materials covered in the course rather than addressing one topic.
-* The final paper is due at 5pm on the last day of classes for the term.
+Grading for BIO439  
+A 450-500  
+A- 440-449  
+B+ 430-439  
+B 400-429  
+B- 390-399  
+C+ 380-389  
+C 350-379  
+C- 340-349  
+D+ 330-339  
+D 300-329  
+F <300
