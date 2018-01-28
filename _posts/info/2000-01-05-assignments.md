@@ -5,13 +5,13 @@ categories:
  - info
 ---
 
-**Assignments and Grading Policy**
+### Assignments and Grading Policy
 
 There will be five assignments during the course of the semester.  Each assignment will focus on the skill learned in class during the week and build on skills and concepts learned in previous weeks. These assignments will be initiated in class and are due at the end of the following week. 
 
 For each assignment you will earn points. The more points you have earned, the more you have learned. Your grade will be based on the total number of points you accumulate during the semester. Assignments will be worth a total of 500 points. Students in BIO539 will also do a cummulative project involving two of the following: (1) a detailed written proposal on research involving big data, (2) analysis of research data, (3) a ~1000 word paper on your research using data, and/or (4) a poster of your research with data. The project will be worth 500 points.
 
-| Grading for BIO539  | | | | Grading for BIO439  | |
+| **Grading for BIO539**  | | | | **Grading for BIO439**  | |
 A | 900-1000 | | |A | 450-500  
 A- | 880-899 | | |A- | 440-449  
 B+ | 860-879  | | |B+ | 430-439 
