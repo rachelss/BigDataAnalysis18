@@ -11,18 +11,18 @@ There will be five assignments during the course of the semester.  Each assignme
 
 For each assignment you will earn points. The more points you have earned, the more you have learned. Your grade will be based on the total number of points you accumulate during the semester. Assignments will be worth a total of 500 points. Students in BIO539 will also do a cummulative project involving two of the following: (1) a detailed written proposal on research involving big data, (2) analysis of research data, (3) a ~1000 word paper on your research using data, and/or (4) a poster of your research with data. The project will be worth 500 points.
 
-| Grading for BIO539  | | |Grading for BIO439  | |
-A | 900-1000 | |A | 450-500  
-A- | 880-899 | |A- | 440-449  
-B+ | 860-879  | |B+ | 430-439 
-B | 800-859  | |B |400-429 
-B- | 780-799  | |B- | 390-399 
-C+ | 760-779  | |C+ | 380-389  
-C | 700-759  | |C | 350-379 
-C- | 680-699  | |C- | 340-349  
-D+ | 660-679  | |D+ | 330-339  
-D | 600-659   | |D | 300-329  
-F | <600  | |F | <300
+| Grading for BIO539  | | | | Grading for BIO439  | |
+A | 900-1000 | | |A | 450-500  
+A- | 880-899 | | |A- | 440-449  
+B+ | 860-879  | | |B+ | 430-439 
+B | 800-859  | | |B |400-429 
+B- | 780-799  | | |B- | 390-399 
+C+ | 760-779  | | |C+ | 380-389  
+C | 700-759  | | |C | 350-379 
+C- | 680-699  | | |C- | 340-349  
+D+ | 660-679  | | |D+ | 330-339  
+D | 600-659   | | |D | 300-329  
+F | <600  | | |F | <300
 
 
 
