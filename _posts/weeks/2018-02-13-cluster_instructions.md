@@ -9,8 +9,7 @@ layout: course_page
 
 * Open your Terminal (Mac) or PuTTY (Windows)
 
-* Connect to URI's seawulf cluster using your ssh (**s**ecure **sh**ell) and your URI username. For example
-
+* Connect to URI's seawulf cluster using your ssh (**s**ecure **sh**ell) and your URI username. For example  
   ```ssh rsschwartz@seawulf.uri.edu```
 
   Your password is set to your URI ID. You will need to change this on your first login.
@@ -19,8 +18,7 @@ There are two ways to run jobs on a cluster. First, you can run them interactive
 
 You are now logged in on on the "head node". A computing cluster is just that - multiple computers attached together. Obviously it would be inefficient for many people to use the same computer on the cluster. It could even crash the cluster! 
 
-* Access your own "node" of the cluster to work on by submitting an interactive job.
-
+* Access your own "node" of the cluster to work on by submitting an interactive job.  
 ```srun -p debug -I -N 1 -c 1 --pty -t 0-01:00 /bin/bash```
 
 The above command launches an interactive session on the "debug" partition using 1 node and 1 core for 1 hour executing bash shell.  When you submit an interactive session it must go to one of the available partitions. Partitions offer different options. The debug queue is for short jobs and is meant to be available without waiting. The general queue may require a wait; however, you may run your job for as long as necessary.
@@ -29,26 +27,20 @@ The important flags that must be present for an interactive session to work are:
 
 You can now run almost all the same commands you do on your own computer. Because the cluster is running Linux (CentOS) there may be a few that are slightly different. For example, both `man ls` and `ls —-help` work on Linux. Additionally, while you have access to many installed programs you need to load them before you can use them. 
 
-* List available software on seawulf
-
+* List available software on seawulf  
 ```module avail```
 
-* Because that list can be long limit your list to software starting with known values (e.g. P)
-
+* Because that list can be long limit your list to software starting with known values (e.g. P)  
 ```module avail P```
 
-* Load software so you can use it (for example Python)
-
-```module load Python/3.5.2-foss-2016b```
-
+* Load software so you can use it (for example Python)  
+```module load Python/3.5.2-foss-2016b```  
 You can use tab complete to get the full title of the module.
 
-* List what you have loaded already
-
+* List what you have loaded already  
 ```module list```
 
-* Run python (this is a programming language we will use later in the course) to show it has been loaded
-
+* Run python (this is a programming language we will use later in the course) to show it has been loaded  
 ```python```
 
 * Use secure copy (scp) to move files between your computer and the cluster. Copy the script from the homework assignment to the cluster in a folder called homework (you should make this directory on the cluster first).
