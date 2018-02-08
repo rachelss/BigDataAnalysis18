@@ -43,16 +43,13 @@ You can use tab complete to get the full title of the module.
 * Run python (this is a programming language we will use later in the course) to show it has been loaded  
 ```python```
 
-* Use secure copy (scp) to move files between your computer and the cluster. Copy the script from the homework assignment to the cluster in a folder called homework (you should make this directory on the cluster first).
-
+* Use secure copy (scp) to move files between your computer and the cluster. Copy the script from the homework assignment to the cluster in a folder called homework (you should make this directory on the cluster first).  
 ```scp 01-run.sh rsschwartz@seawulf.uri.edu:homework```
 
-* Copy your whole data-shell folder to the cluster.
-
+* Copy your whole data-shell folder to the cluster.  
 ```scp -r data-shell rsschwartz@seawulf.uri.edu:```
 
-* Make a change to a file in the data-shell folder. Rather than copying the whole folder again just update with these recent changes.
-
+* Make a change to a file in the data-shell folder. Rather than copying the whole folder again just update with these recent changes.  
 ```rsync -r data-shell rsschwartz@seawulf.uri.edu:```
 
 If you are working with analyses that will take some time you should not use an interactive job. Instead you will write a script to submit a job. Your script might look like
