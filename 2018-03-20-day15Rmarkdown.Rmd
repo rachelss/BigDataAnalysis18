@@ -1,0 +1,121 @@
+---
+title: "Integrating code into documents"
+output:
+  html_document: default
+  pdf_document: default
+layout: page
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+RStudio makes it easy to create documents with both text and R code using a format called R Markdown. 
+
+* In RStudio, go to `File` - `New File` - `R Markdown`.
+
+* A window will pop up. Selecting the "HTML", "PDF", or "Word" options changes the type of document that
+you will finally generate. Select "PDF".
+
+A new file should open in the RStudio Source editing pane. This file contains example text. R markdown documents have three types of content: (1) R code, (2) a YAML header at the top of the 
+page containing details about the document such as the title, author and date, and (3)
+ plain text. These control how the final document will appear. 
+
+* Above the source pane you should see a ball of yarn labelled "Knit PDF". Press
+it. This will create a pdf document with your text, code, and code output using knitr.
+
+Some code should run in the R console and a new window should open.
+
+In the document, you can see the header information has been turned into
+a large title. You should see the first code block, as well as the output it 
+generates if you were to run it in R. The second code block has been hidden,
+and the plot it generates has been embedded in the document.
+
+##Text
+The plain text has been rendered using a lightweight syntax called "markdown".
+This allows you to apply formatting to the plain text. For example wrapping a 
+word with two stars: \*\*makes bold text\*\* in the final document. You can look up markdown
+cheatsheets for various formatting including tables and bullets (fyi - the syllabus for this class
+was written in Markdown; this document was written in RMarkdown).
+
+RStudio provides a [handy cheat sheet][1] containing the formatting syntax as well
+as options for modifying the way R code is run inside the code blocks.
+
+[1]: https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf
+
+##Code chunks
+
+In the midst of an otherwise plain Markdown document, you’ll have a bit of R code that is initiated by a line like this:
+
+    ```{r chunk_name}`r ''`
+
+After the code, there’ll be a line with just three backticks.
+
+    ````r ''`
+
+It’s usually best to give each code chunk a name, like chunk_name above. The name is optional; if included, each code chunk needs a distinct name. The advantage of giving each chunk a name is that it will be easier to understand where to look for errors, should they occur. Also, any figures that are created will be given names based on the name of the code chunk that produced them.
+
+When you process the R Markdown document with knitr, each of the code chunks will be evaluated, and then the code and output will be inserted (unless you suppress one or both with chunk options, described below). If the code produces a figure, that figure will be inserted.
+
+An R Markdown document will often have many code chunks. They are evaluated in order, in a single R session, and the state of the various variables in one code chunk are preserved in future chunks. It’s as if you’d pulled out all of the R code as a single file (and you can do that, using the purl command in knitr) and then sourced it into R.
+
+###Chunk options
+
+The initial line in a code chunk may include various options. For example, echo=FALSE indicates that the code will not be shown in the final document (though any results/output would still be displayed).
+
+    ```{r chunk_name, echo=FALSE}`r ''`
+    
+Use eval=FALSE to display the code but not evaluate it (no results/output will be displayed).
+
+    ```{r chunk_name, eval=FALSE}`r ''`
+    
+You use include=FALSE to have the chunk evaluated, but neither the code nor its output displayed.
+
+    ```{r chunk_name, include=FALSE}`r ''`
+    
+For a report to a collaborator you might use include=FALSE to suppress all of the code and the raw results and just show figures.
+
+For figures, you’ll want to use options like fig.width and fig.height. For example:
+
+    ```{r scatterplot, fig.width=8, fig.height=6}`r ''`
+
+Sometimes analyses can take minutes, hours, or even days to run. Waiting
+for this code to run every time we generate the final document from R markdown
+would be impossible. To avoid this, add the option `cache=TRUE` to the start
+of your code block (e.g. `{r, cache=TRUE}` instead of `{r}`). 
+
+There are lots of different possible “chunk options”. Each must be real R code, as R will be used to evaluate them.
+
+###Global chunk options
+
+You may be inclined to use mostly the same set of chunk options throughout a document. To avoid retyping those options in every chunk, set some global chunk options at the top of your document.
+
+For example, I might use `include=FALSE` or at least `echo=FALSE` globally for a report to a scientific collaborator who wouldn’t want to see all of the code. And I might want something like fig.width=12 and fig.height=6 if I generally want those sizes for my figures.
+
+I’d set such options by having an initial code chunk like this:
+
+```{r global_options, eval=FALSE}
+knitr::opts_chunk$set(fig.width=12, fig.height=8, fig.path='Figs/',
+                      echo=FALSE, warning=FALSE, message=FALSE)
+```
+I snuck a few additional options in there: warning=FALSE and message=FALSE suppress any R warnings or messages from being included in the final document, and fig.path='Figs/' makes it so the figure files get placed in the Figs subdirectory. (By default, they are not saved at all.)
+
+### Inline R code
+
+You can also include r code directly in your text. This can be helpful when referring to specific variables. For example, you should include numbers that are derived from the data as code not as numbers. Thus, rather than writing “There are 168 individuals”, insert a bit of code that, when evaluated, gives the number of individuals.
+
+There are `` `r '\x60r nrow(my_data)\x60'` `` individuals.
+
+If you update your dataset this value will be correct.
+
+You can also include `inline code` you do not want to evaluate by putting it between backticks. Here is some `` `r '\x60inline code\x60'` ``.
+
+### Challenge
+
+1. Change the R Markdown template document to load the surveys data and any libraries you have been using.
+2. Add one of the plots we created last week. Hide the code. 
+3. Add text to describe the results. Include headers, italics, bullets, and other formatting as needed.
+
+Additional advice and troubleshooting can be found at http://stat545.com/block007_first-use-rmarkdown.html
+
+This document was modified from http://resbaz.github.io/r-intermediate-gapminder/18-rmd.html and http://kbroman.org/knitr_knutshell/pages/Rmarkdown.html
