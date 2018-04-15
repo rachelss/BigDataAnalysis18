@@ -16,7 +16,7 @@ Students in BIO539 will also do a project (worth 500 points) involving:
 (2) One of the following:
   * A detailed written proposal on research plans including expected analyses.
   * A ~1000 word paper on your research including relevant and significant results from the analysis.
-  * A poster including relevant and significant results from the analysis. 
+  * A poster including relevant and significant results from the analysis.  
 (3) A Github repository with a Readme so that the analysis can be replicated in full.
 
 | **Grading for BIO539**  | | | | **Grading for BIO439**  | |
