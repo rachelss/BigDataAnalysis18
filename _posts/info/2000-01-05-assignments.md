@@ -11,8 +11,8 @@ There will be five assignments during the course of the semester.  Each assignme
 
 For each assignment you will earn points. The more points you have earned, the more you have learned. Your grade will be based on the total number of points you accumulate during the semester. Assignments will be worth a total of 500 points. 
 
-Students in BIO539 will also do a project (worth 500 points) involving: 
-(1) Exploratory analysis of research data (submitted as an Rmarkdown or Jupyter notebook and including explanations)
+Students in BIO539 will also do a project (worth 500 points) involving:  
+(1) Exploratory analysis of research data (submitted as an Rmarkdown or Jupyter notebook and including explanations)  
 (2) One of the following:
   * A detailed written proposal on research plans including expected analyses.
   * A ~1000 word paper on your research including relevant and significant results from the analysis.
